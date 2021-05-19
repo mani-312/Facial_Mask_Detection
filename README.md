@@ -9,3 +9,16 @@ You can download the **Dataset** used for training at https://drive.google.com/d
 ![alt text](https://github.com/mani-312/Facial_Mask_Detection/blob/main/model_flow.png?raw=true)
 
 ### Facce detection:
+MediaPipe face detection was leveraged to detect faces with localization in an image.
+For more details about MediaPipe : https://google.github.io/mediapipe/solutions/face_mesh.html
+
+### Model Summary
+Augmentation technique was used to generate images with different lighting, orientation to make the model generalized to all conditions.
+Extracted only the region of face from image and for training the model
+Model architecture involves several layers where each CNN layer is followed by a MaxPooling layer
+
+### Accuracy
+Train_Accuracy touched 96%
+Test_Accuracy : 95%
+
+### Deployed the model into local server
