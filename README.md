@@ -4,3 +4,8 @@ COVID-19 has created a disasterous moment for everyone.We need to fight back to 
 
 ### Dataset details:
 You can download the **Dataset** used for training at https://drive.google.com/drive/folders/1NjTxxQKq1QgJMkGhe64l-Or-HhZ8vOin?usp=sharing.
+
+### Model Workflow:
+![alt text](https://github.com/mani-312/Facial_Mask_Detection/blob/main/model_flow.png?raw=true)
+
+### Facce detection:
