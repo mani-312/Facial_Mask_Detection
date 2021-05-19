@@ -8,7 +8,7 @@ import numpy as np
 
 # Keras
 import tensorflow as tf
-from image_predict import detect_and_predict_mask
+from predict_image import detect_and_predict_mask
 import cv2
 
 # Flask utils
@@ -45,6 +45,7 @@ def upload():
         # Get the file from post request
         f = request.files['file']
 
+        # Make sure to create a uploads folder in current working directory
         # Save the file to ./uploads
         basepath = os.path.dirname(__file__)
         file_path = os.path.join(
